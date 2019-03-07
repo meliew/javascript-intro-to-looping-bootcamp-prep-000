@@ -29,9 +29,7 @@ function whileLoop(n) {
 function doWhileLoop(num) {
 
   let current = 0;
-  function incrementVariable() {
-    return ++current;
-  }
+  const incrementVariable = () => ++current;
 
   do {
     console.log("I run once regardless.");
