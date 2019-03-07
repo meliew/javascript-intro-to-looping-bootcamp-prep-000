@@ -13,9 +13,9 @@ function forLoop(array){
       array.push(`I am 1 strange loop.`)
     } else {
       array.push(`I am ${i} strange loops.`)
+    }
   }
-}
-return array;
+  return array;
 }
 
 function whileLoop(n) {
@@ -30,7 +30,7 @@ function doWhileLoop(num) {
 
   let current = 0;
   function incrementVariable() {
-    current = current + 1;
+    current ++;
     return current;
   }
 
