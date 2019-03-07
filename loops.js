@@ -27,14 +27,15 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
+  const limit = num;
   function incrementVariable() {
     num = num + 1;
     return num;
-}
-
-do {
-  console.log("I run once regardless.");
   }
-  while (incrementVariable() < num);
+
+  do {
+    console.log("I run once regardless.");
+  }
+  while (incrementVariable() < limit);
 
 }
