@@ -30,7 +30,7 @@ function doWhileLoop(num) {
 
   let current = 0;
   function incrementVariable() {
-    current ++;
+    current++;
     return current;
   }
 
